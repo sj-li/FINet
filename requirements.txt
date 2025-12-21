@@ -1,22 +1,33 @@
+--index-url https://pypi.org/simple
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# PyTorch (CUDA 11.8)
 torch==2.1.1
 torchvision==0.16.1
-torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
-ray
+torchaudio==2.1.1
+
+# Fix NumPy ABI issues with older compiled extensions
+numpy==1.26.4
+
 tqdm
 hydra-core==1.2.0
 pytorch-lightning
 setuptools==59.5.0
-protobuf==3.19.0
 rich==12.4.4
 wandb==0.13.5
 plotly
 matplotlib==3.4.3
 timm
-plotly
 torchmetrics==0.10.2
-av2
--e ./third_party/causal-conv1d
--e ./third_party/mamba
+transformers==4.30.0
+av2==0.2.1
 tensorboard
-torch-scatter -f https://data.pyg.org/whl/torch-2.1.1+cu118.html
 protobuf==3.20.3
+
+# torch-scatter wheels
+-f https://data.pyg.org/whl/torch-2.1.1+cu118.html
+torch-scatter
+
+# Optional: ray is big; if you need it, pin a version (recommended)
+# ray==2.9.3
+ray

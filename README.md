@@ -9,16 +9,20 @@ Motion forecasting is a crucial component of autonomous driving systems, enablin
 </div><br/>
 
 ## Install
-Download third-party [module](https://1drv.ms/u/c/fe30fbdab18da9a9/ETuKKmgzSUlPqXSja4MeF2gBg_CUfu43p28K7_Qs1E4JjQ?e=jXIC0c) and unzip.
-
 ```
 conda create -n FINet python=3.10
-conda activate FInet
-unzip thrid_party.zip
+conda activate FINet
 pip install -r requirements.txt
+cd mamba_modules/causal-conv1d
+pip install -v --no-build-isolation .
+cd ../mamba
+pip install -v --no-build-isolation .
 ```
 
+
+
 ## Prepare the data (AV2)
+Download data at [**link**](https://www.argoverse.org/av2.html)
 ### AV2 Data Structure
 ```
 data_root
