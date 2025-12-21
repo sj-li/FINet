@@ -69,10 +69,11 @@ python eval.py gpus=1 test=true
 
 ## Reference
 ```bibtex
-@inproceedings{zhang2024demo,
- title={Future-Aware Interaction Network For Motion Forecasting},
- author={Li, Shijie and Liu Chunyu and Xu, Xun and Yeo, Si Yong and Yang, Xulei},
- booktitle={ICCV},
- year={2025},
+@inproceedings{li2025future,
+  title={Future-Aware Interaction Network For Motion Forecasting},
+  author={Li, Shijie and Liu, Chunyu and Xu, Xun and Yeo, Si Yong and Yang, Xulei},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={7505--7515},
+  year={2025}
 }
 ```
